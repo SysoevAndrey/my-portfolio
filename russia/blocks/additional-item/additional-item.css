@@ -1,0 +1,25 @@
+@import url('_cher/additional-item_cher.css');
+@import url('_niko/additional-item_niko.css');
+@import url('_novo/additional-item_novo.css');
+@import url('_shic/additional-item_shic.css');
+@import url('__heading/additional-item__heading.css');
+@import url('__text/additional-item__text.css');
+.additional-item {
+  position: relative;
+  padding: 30px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.additional-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+}

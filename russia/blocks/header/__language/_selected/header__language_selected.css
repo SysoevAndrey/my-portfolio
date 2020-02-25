@@ -1,0 +1,8 @@
+.header__language_selected {
+  text-decoration-line: underline;
+  cursor: default;
+}
+
+.header__language_selected:hover {
+  opacity: 1;
+}

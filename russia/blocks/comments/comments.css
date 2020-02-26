@@ -1,0 +1,9 @@
+@import url('__container/comments__container.css');
+.comments {
+  width: 1184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 102px;
+  padding-bottom: 102px;
+}

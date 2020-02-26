@@ -1,0 +1,6 @@
+.emblem__container {
+  display: grid;
+  grid-template-columns: 208px 208px 208px 208px 208px;
+  grid-template-rows: 310px;
+  grid-column-gap: 36px;
+}

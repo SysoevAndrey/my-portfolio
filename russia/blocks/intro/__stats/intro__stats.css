@@ -1,0 +1,13 @@
+.intro__stats {
+  width: 984px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.intro__span-normal {
+  font-weight: normal; 
+}

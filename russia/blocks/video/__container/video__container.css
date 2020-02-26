@@ -1,0 +1,6 @@
+.video__container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: -9px;
+  padding-right: -9px;
+}

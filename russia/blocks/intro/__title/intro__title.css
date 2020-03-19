@@ -1,9 +1,39 @@
 .intro__title {
-  width: 984px;
   text-align: left;
   font-weight: 900;
   font-size: 54px;
   line-height: 59px;
   color: #FFFFFF;
-  margin: 0 0 45px 0;
+  margin: 0 0 33px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro__title {
+    margin-bottom: 34px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__title {
+    width: 94%;
+    margin-bottom: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    width: 90%;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 29px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .intro__title {
+    width: 90%;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 39px;
+  }
 }

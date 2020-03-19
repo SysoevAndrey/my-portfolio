@@ -8,3 +8,21 @@
   margin: 0 0 12px 0;
   z-index: 4;
 }
+
+@media screen and (max-width: 1023px) {
+  .video-item__duration {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video-item__duration {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video-item__duration {
+    margin-bottom: 8px;
+  }
+}

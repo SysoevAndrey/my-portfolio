@@ -1,10 +1,22 @@
 .footer__url {
   text-decoration: none;
-  margin: 0 18px 0 0;
+  margin: 0 19.5px 0 0;
   transition: .1s linear;
   color: #fff;
 }
 
 .footer__url:hover {
   opacity: .5;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__url {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__url {
+    margin-right: 19px;
+  }
 }

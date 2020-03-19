@@ -3,9 +3,9 @@
 @import url('__button-link/video-item__button-link.css');
 @import url('__durartion/video-item__duration.css');
 @import url('__icon-play/video-item__icon-play.css');
-@import url('__item-bg/video-item__item-bg.css');
 @import url('__subtitle/video-item__subtitle.css');
 @import url('__title/video-item__title.css');
+@import url('__icon-play/_observatory/video-item__icon-play_observatory.css');
 .video-item {
   width: 583px;
   height: 323px;
@@ -33,4 +33,51 @@
 
 .video-item:hover:before {
   opacity: .8;
+}
+
+@media screen and (max-width: 1279px) {
+  .video-item {
+    width: 456px;
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video-item {
+    width: 352px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video-item {
+    min-width: 343px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 0 8px 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video-item {
+    min-width: auto;
+    width: 100%;
+    height: 192px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 0 8px 0;
+  }
 }

@@ -8,3 +8,25 @@
   margin: 0;
   z-index: 4;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .cover__subtitle {
+    text-indent: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    width: 85%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .cover__subtitle {
+    width: 90%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

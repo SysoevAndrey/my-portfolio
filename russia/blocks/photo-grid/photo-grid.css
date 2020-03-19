@@ -1,9 +1,43 @@
 @import url('__item/photo-grid__item.css');
 .photo-grid {
-  width: 1184px;
   display: grid;
-  grid-template-columns: 284px 284px 284px 284px;
-  grid-template-rows: 188px 188px 188px;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
-  padding-top: 92px;
+  padding-top: 98px;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 13px;
+    padding-top: 98px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    width: 94%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 17px;
+    padding-top: 92px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .photo-grid {
+    width: 93%;
+    grid-template-columns: 1fr;
+    grid-gap: 17px;
+    padding-top: 68px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .photo-grid {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-gap: 9.5px;
+    padding-top: 67px;
+  }
 }

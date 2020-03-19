@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) and (min-width: 321px) {
+  .place__paragraph_margin {
+    margin-bottom: 35px;
+  }
+}

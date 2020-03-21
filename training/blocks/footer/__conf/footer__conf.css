@@ -1,0 +1,13 @@
+.footer__conf {
+  margin: 0;
+  padding-bottom: 17px;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #949494;
+  transition: .2s linear;
+}
+
+.footer__conf:hover {
+  opacity: .6;
+}

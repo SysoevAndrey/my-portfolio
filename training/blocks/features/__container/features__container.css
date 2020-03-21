@@ -1,0 +1,16 @@
+.features__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .features__container {
+    box-sizing: border-box;
+    padding-left: -1px;
+    padding-right: -1px;
+    width: 74.5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

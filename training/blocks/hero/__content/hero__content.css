@@ -1,0 +1,19 @@
+.hero__content {
+  padding-top: 48px;
+  padding-bottom: 42px;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .hero__content {
+    width: 73.8%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 102px;
+    padding-bottom: 82px;
+  }
+}

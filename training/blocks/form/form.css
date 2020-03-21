@@ -1,0 +1,24 @@
+@import url('__title/form__title.css');
+@import url('__input/form__input.css');
+@import url('__input/_name/form__input_name.css');
+@import url('__input/_phone/form__input_phone.css');
+@import url('__button/form__button.css');
+@import url('__button-text/form__button-text.css');
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 80%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: -3px 6px 0px #FFBB01;
+  padding-bottom: 47.73px;
+}
+
+@media screen and (min-width: 1280px) {
+  .form {
+    width: 458px;
+    padding: 47px 39px 56px;
+  }
+}

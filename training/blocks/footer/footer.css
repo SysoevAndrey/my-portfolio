@@ -1,0 +1,22 @@
+@import url('__title/footer__title.css');
+@import url('__value/footer__value.css');
+@import url('__link/footer__link.css');
+@import url('__social/footer__social.css');
+@import url('__social-item/footer__social-item.css');
+@import url('__icons/footer__icons.css');
+@import url('__icon/footer__icon.css');
+@import url('__icon-image/footer__icon-image.css');
+@import url('__conf/footer__conf.css');
+@import url('__contacts/footer__contacts.css');
+@import url('__container/footer__container.css');
+.footer {
+  width: 79%;
+  padding-top: 65px;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 0;
+    width: 40.5%;
+  }
+}
